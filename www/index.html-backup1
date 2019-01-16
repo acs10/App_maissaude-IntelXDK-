@@ -1,0 +1,134 @@
+!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index_main.less.css" class="main-less">
+    <link rel="stylesheet" type="text/css" href="galleria/galleria.classic.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+    <script src="intelxdk.js"></script>
+    <script src="cordova.js"></script>
+    <script src="xhr.js"></script>
+    <script src="xdk/init-dev.js"></script>
+    <script type="application/javascript" src="lib/jquery.min.js"></script>
+    <script type="application/javascript" src="marginal/marginal-position.min.js"></script>
+    <script type="application/javascript" src="js/app.js"></script>
+    <script type="application/javascript" src="js/init-app.js"></script>
+    <script type="application/javascript" src="galleria/galleria-1.3.6.min.js"></script>
+    <script type="application/javascript" src="galleria/galleria.classic.min.js"></script>
+    <script type="application/javascript" src="galleria/galleria-startup.js"></script>
+    <script type="application/javascript" src="js/index_user_scripts.js"></script>
+    <script type="application/javascript" src="xdk/ad/jqm_subpage.js"></script>
+    <script type="application/javascript" src="xdk/appdesigner/js/rest-of-space.js"></script>
+  </head>
+
+  <body>
+    <div class="upage" id="mainpage">
+      <div class="upage-outer">
+        <div class="uib-header header-bg container-group inner-element uib_w_1 uib-header-fixed" data-uib="layout/header" data-ver="0" id="cabecalho">
+          <h2>Saude+</h2>
+          <div class="widget-container wrapping-col single-centered"></div>
+          <div class="widget-container content-area horiz-area wrapping-col left"></div>
+          <div class="widget-container content-area horiz-area wrapping-col right"></div>
+        </div>
+        <div class="upage-content ac0 content-area vertical-col left">
+          <button class="btn widget uib_w_8 btn-default d-margins" data-uib="twitter%20bootstrap/button" data-ver="1" id="butao_dietas">Dietas<i class="plus button-icon-right" data-position="right"></i>
+          </button>
+          <button class="btn widget uib_w_9 btn-default d-margins" data-uib="twitter%20bootstrap/button" data-ver="1" id="butao_imc">Teste IMC<i class="check button-icon-right" data-position="right"></i>
+          </button>
+          <button class="btn widget uib_w_10 btn-default d-margins" data-uib="twitter%20bootstrap/button" data-ver="1" id="butao_informativo">Informativo<i class="comment button-icon-right" data-position="right"></i>
+          </button>
+          <div class="grid grid-pad urow uib_row_1 row-height-1" data-uib="layout/row" data-ver="0">
+            <div class="col uib_col_1 col-0_12-12" data-uib="layout/col" data-ver="0">
+              <div class="widget-container content-area vertical-col left">
+
+                <div class="widget uib_w_11 scale-image d-margins" data-uib="media/img" data-ver="0">
+                  <figure class="figure-align">
+                    <img src="images/logotipo_saude.jpg">
+                    <figcaption data-position="bottom"></figcaption>
+                  </figure>
+                </div><span class="uib_shim"></span>
+              </div>
+            </div>
+            <span class="uib_shim"></span>
+          </div>
+        </div>
+        <div class="uib-footer uib-footer-fixed footer-bg container-group inner-element uib_w_2" data-uib="layout/footer" data-ver="0">
+          <h2></h2>
+          <div class="widget-container wrapping-col single-centered">
+            <div class="btn-group uib-bs-flex widget uib_w_24 d-margins" data-uib="twitter%20bootstrap/button_group" data-ver="1">
+              <button class="btn widget uib_w_26 btn-default d-margins" data-uib="twitter%20bootstrap/button" data-ver="1" id="butao_home"><i class="home button-icon-top" data-position="top"></i>Home</button>
+              <button class="btn widget uib_w_27 btn-default d-margins" data-uib="twitter%20bootstrap/button" data-ver="1" id="butao_contato"><i class="user button-icon-top" data-position="top"></i>Contato</button>
+              <button class="btn widget uib_w_25 btn-default d-margins" data-uib="twitter%20bootstrap/button" data-ver="1" id="butao_sobre"><i class="info button-icon-top" data-position="top"></i>Sobre</button>
+            </div>
+          </div>
+          <div class="widget-container content-area horiz-area wrapping-col left"></div>
+          <div class="widget-container content-area horiz-area wrapping-col right"></div>
+        </div>
+        <div id="pg_sobre" class="upage-content vertical-col left hidden">
+          <div class="grid grid-pad urow uib_row_2 row-height-2" data-uib="layout/row" data-ver="0">
+            <div class="col uib_col_2 col-0_12-12" data-uib="layout/col" data-ver="0">
+              <div class="widget-container content-area vertical-col center">
+
+                <div class="table-thing widget uib_w_12 d-margins" data-uib="twitter%20bootstrap/text_area" data-ver="1">
+                  <label class="narrow-control label-inline">Objetivo</label>
+                  <textarea rows="28" class="wide-control form-control" wrap="hard" placeholder="Other details">Nosso organismo tem a capacidade de fornecer energia e disposição para qualquer tipo de atividade. Devemos então, seguir alguns cuidados básicos para que nosso corpo tenha um melhor desempenho e se mantenha sempre disposto e saudável
+                    para realizar todos os tipos de tarefas. Informações confiáveis de saúde na Internet - Site direcionado ao público em geral que tem por objetivo a informação, divulgação e educação sobre temas de saúde, com artigos escritos exclusivamente
+                    por especialistas para o seu bem estar físico. Lembre-se: Criar hábitos de uma boa alimentação e higiene, praticar exercícios físicos e repor as energias dormindo bem, são costumes que colaboram para aumentar a qualidade e a expectativa
+                    de vida.</textarea>
+                </div><span class="uib_shim"></span>
+              </div>
+            </div>
+            <span class="uib_shim"></span>
+          </div>
+        </div>
+        <div id="pg_imc" class="upage-content vertical-col left hidden">
+          <div class="table-thing widget uib_w_13 d-margins" data-uib="twitter%20bootstrap/text_area" data-ver="1">
+            <label class="narrow-control label-inline">IMC</label>
+            <textarea rows="2" class="wide-control form-control" wrap="soft" placeholder="Other details">Teste seu IMC e veja como esta sua saúde.</textarea>
+          </div>
+          <div class="table-thing widget uib_w_14 d-margins" data-uib="twitter%20bootstrap/input" data-ver="1">
+            <label class="narrow-control" for="info_p"></label>
+            <input class="wide-control form-control default" type="text" placeholder="Digite seu peso em kg." id="info_p">
+          </div>
+          <div class="table-thing widget uib_w_15 d-margins" data-uib="twitter%20bootstrap/input" data-ver="1">
+            <label class="narrow-control"></label>
+            <input class="wide-control form-control default" type="text" placeholder="Digite sua altura em metros.">
+          </div>
+          <div class="table-thing widget uib_w_16 d-margins" data-uib="twitter%20bootstrap/text_area" data-ver="1">
+            <label class="narrow-control label-inline">Comment</label>
+            <textarea rows="1" class="wide-control form-control" wrap="soft" placeholder="Other details">Abaixo de 17 - Muito abaixo do peso.</textarea>
+          </div>
+          <div class="table-thing widget uib_w_17 d-margins" data-uib="twitter%20bootstrap/text_area" data-ver="1">
+            <label class="narrow-control label-inline">Comment</label>
+            <textarea rows="1" class="wide-control form-control" wrap="soft" placeholder="Other details">Entre 17 e 18,49 - Abaixo do peso.</textarea>
+          </div>
+          <div class="table-thing widget uib_w_18 d-margins" data-uib="twitter%20bootstrap/text_area" data-ver="1">
+            <label class="narrow-control label-inline">Comment</label>
+            <textarea rows="1" class="wide-control form-control" wrap="soft" placeholder="Other details">Entre 18,5 e 24,99 - Peso normal.</textarea>
+          </div>
+          <div class="table-thing widget uib_w_19 d-margins" data-uib="twitter%20bootstrap/text_area" data-ver="1">
+            <label class="narrow-control label-inline">Comment</label>
+            <textarea rows="1" class="wide-control form-control" wrap="soft" placeholder="Other details">Entre 25 e 29,99 - Acima do peso.</textarea>
+          </div>
+          <div class="table-thing widget uib_w_20 d-margins" data-uib="twitter%20bootstrap/text_area" data-ver="1">
+            <label class="narrow-control label-inline">Comment</label>
+            <textarea rows="1" class="wide-control form-control" wrap="soft" placeholder="Other details">Entre 30 e 34,99 - Obesidade I.</textarea>
+          </div>
+          <div class="table-thing widget uib_w_22 d-margins" data-uib="twitter%20bootstrap/text_area" data-ver="1">
+            <label class="narrow-control label-inline">Comment</label>
+            <textarea rows="2" class="wide-control form-control" wrap="soft" placeholder="Other details">Entre 35 e 39,99 - Obesidade II (severa) .</textarea>
+          </div>
+          <div class="table-thing widget uib_w_23 d-margins" data-uib="twitter%20bootstrap/text_area" data-ver="1">
+            <label class="narrow-control label-inline">Comment</label>
+            <textarea rows="1" class="wide-control form-control" wrap="soft" placeholder="Other details">Acima de 40 - Obesidade III (mórbida).</textarea>
+          </div>
+        </div>
+        <div id="pg_contato" class="upage-content vertical-col left hidden"></div>
+      </div>
+    </div>
+  </body>
+
+</html>
